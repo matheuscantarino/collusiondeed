@@ -1,0 +1,35 @@
+body{
+    background-color: #57324c;
+}
+.beastiarylefthud{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 20%;
+    height: 90%;
+    background-color: #492c53;
+    border: #f9bc00;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+}
+.beasttypehud{
+    position: absolute;
+    top: 1.5%;
+    left: 3%;
+    width: 92.5%;
+    height: 7%;
+    background-color: #492c53;
+    border: #f9bc00;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1px;
+}
+p{
+    position: relative;
+    left: 5%;
+    font-family: "Alagard";
+    font-size: 25px;
+    color: white;
+}
