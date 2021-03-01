@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="./css/index.css">
     <div class = "rollbutton">
     <form name="actionattack" method="POST" action="actionattack.php">
-        <select name="quickid1" id="quickid1">
+        <select name="quickkey1" id="quickkey1">
             <?php
                 while ($register = mysqli_fetch_array($result)){
                         $enemyname = $register['enemyname'];
@@ -19,7 +19,7 @@
             ?>
             <option value="empty">Close</option>
         </select>
-        <select name="quickid2" id="quickid2">
+        <select name="quickkey2" id="qquickkey2">
                         <option value="enemy">Enemy</option>
             </select>
         <button>Roll!</button>
