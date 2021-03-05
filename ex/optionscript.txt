@@ -1,0 +1,1 @@
+<option value="<?php echo $enemyid;?>"><?php echo $enemyvisualname;?></option>

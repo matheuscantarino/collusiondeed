@@ -1,12 +1,9 @@
-<html>
+<?php
+$img = './style/icons/itens/swordicon.png';
 
-<select name="action" id="numerotenis">
-        <option value="basicattack">attack</option>
-        <option value="spellpower">spell</option>
-    </select><br>
-    <select name="action" id="numerotenis">
-        <option value="basicattack">attack</option>
-        <option value="spellpower">spell</option>
-    </select>
-    
-</html>
+?>
+<img src="<?php echo $img?>">
+<div class = "interacticon">
+                </div>
+                <div class = "basicattackicon">
+                </div>
